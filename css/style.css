@@ -13,6 +13,60 @@
     color: var(--main-color);
 }
 
+header {
+    background-color: white;
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
+}
+
+.header {
+    z-index: 100;
+    top: 0;
+    left: 100;
+}
+
+.logo img {
+    width: 80px;
+    height: 30px;
+}
+
+nav ul {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: unset;
+}
+
+nav li {
+    padding: 46px 33.5px;
+}
+
+nav li:hover {
+    border-top: solid 2px #0065FC;
+    cursor: pointer;
+    padding: 44px 33.5px;
+}
+
+nav li:hover a {
+    color: #0065FC;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
 body {
     display: flex;
     justify-content: center;

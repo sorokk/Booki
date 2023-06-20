@@ -133,7 +133,7 @@ body {
 
 .Filtres-word {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 900;
     margin-right: 15px;
 }
 
@@ -179,7 +179,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 900;
     height: 50px;
     padding: 4px 19px 4px 19px;
     gap: 10px;
@@ -212,7 +212,7 @@ body {
 }
 
 .info-logements {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .main-container {
@@ -244,7 +244,7 @@ body {
 }
 
 .euro {
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .neutral-star {
@@ -284,7 +284,7 @@ body {
 
 .section-more {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .hebergements-cards {
@@ -381,7 +381,7 @@ body {
 
 .titre-activites {
     size: 22px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .activites-card {
@@ -398,7 +398,7 @@ body {
     align-items: center;
     margin-top: 10px;
     margin-left: 15px;
-    font-weight: 700;
+    font-weight: 900;
     size: 16px;
 }
 
@@ -435,7 +435,7 @@ body {
 }
 
 .titre-footer {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 18px;
     margin-bottom: 15px;
     margin-top: 15px;

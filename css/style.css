@@ -390,6 +390,7 @@ body {
     justify-content: space-between;
     box-sizing: border-box;
     padding: 0px 20px;
+    gap: 1em;
 }
 
 .activites-title {
@@ -403,16 +404,15 @@ body {
 }
 
 .card-activites {
-    width: 297.5px;
-    height: 430px;
+    flex: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px 20px 20px 20px;
   }
 
 .card-activites img {
-    width: 297.5px;
-    height: 380px;
+    width: 100%;
     border-radius: 20px 20px 20px 20px;
+    aspect-ratio: 1 / 1.2;
 }
 
 /* Footer *************/
@@ -499,6 +499,7 @@ body {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
 }
 
 /* Small devices (phones, less than 768px) */

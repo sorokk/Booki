@@ -103,6 +103,7 @@ a {
     height: 40px;
     background-color: white;
     overflow: hidden;
+    margin: 20px 0;
 }
 
 .search-bar input[type="text"] {
@@ -205,10 +206,15 @@ body {
     background-color: #DEEBFF;
 }
 
+.block-title {
+    margin-bottom: 30px;
+}
+
 .info {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin: 0 0 20px 0;
 }
 
 .info-logements {
@@ -302,7 +308,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 15px;
+    gap: 35px;
     padding: 30px 0;
 }
 
@@ -350,7 +356,7 @@ body {
 .populaires-cards {
     display: flex; 
     flex-direction: column;
-    gap: 15px;
+    gap: 50px;
     padding: 30px 0;
 }
 
@@ -439,13 +445,16 @@ body {
 
 .footer {
     padding: 30px 50px;
-    max-width: 1440px;
     min-height: 163px;
     background: #F2F2F2;
     display: flex;
-    gap: 1rem;
-    margin: 0 50px;
+    gap: 3rem;
+    margin: 30px 50px 0 50px;
     box-sizing: border-box;
+}
+
+.footer a {
+    width: fit-content;
 }
 
 .titre-footer {
@@ -562,6 +571,7 @@ body {
     
     .block-title {
         padding: var(--spacing-mobile);
+        margin: 0;
     }
     
     .button-search {
@@ -584,6 +594,7 @@ body {
     
     .search-bar {
         padding: 0 var(--spacing-mobile);
+        margin: 0;
     }
     
     .search-bar button {
@@ -615,6 +626,10 @@ body {
         padding: var(--spacing-mobile) 0;
     }
     
+    .hebergements-cards {
+        gap: 30px;
+    }
+
     .hebergements-cards .card {
         width: 100%;
     }
@@ -630,6 +645,7 @@ body {
     
     .populaires-cards {
         flex-direction: column;
+        gap: 30px;
     }
     
     .populaires-cards .card {

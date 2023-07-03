@@ -52,6 +52,7 @@ ul {
 
 .menu {
     height: 100%;
+    border: transparent;
 }
 
 .menu ul {
